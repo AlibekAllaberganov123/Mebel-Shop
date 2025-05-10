@@ -86,6 +86,13 @@ li {
   border: none;
   color: #fff;
   font-size: 16px;
+  transition: all 0.3s ease;
+}
+.home__btn:hover {
+  background-color: #fff;
+  border: 2px solid #a65cf0;
+  color: #a65cf0;
+  font-weight: 700;
 }
 /* home styles ends */
 /* shop styles starts */
@@ -180,6 +187,7 @@ li {
   display: flex;
   justify-content: space-between;
 }
+
 .shop__bottom--cards {
   display: flex;
   align-items: center;
@@ -194,6 +202,7 @@ li {
   height: 420px;
   line-height: 250%;
   padding: 10px 10px;
+  border-radius: 10px;
 }
 .shop__bottom--card1 {
   background-color: #f6f6f6;
@@ -201,5 +210,39 @@ li {
   height: 420px;
   line-height: 280%;
   padding: 10px 10px;
+}
+.shop__card--star {
+  margin: 10px 20px;
+}
+.shop__bottom--title {
+  margin: 30px 0;
+  color: #333333;
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: 400;
+}
+.shop__card--btn1 {
+  margin-top: 60px;
+}
+.shop__card--btn3 {
+  margin-top: 38px;
+}
+.shop__card--btn4 {
+  margin-top: 25px;
+}
+.shop__card--btn5 {
+  margin-top: 25px;
+}
+.shop__card--btn6 {
+  margin-top: 15px;
+}
+.shop__card--btn7 {
+  margin-top: 25px;
+}
+.shop__card--btn8 {
+  margin-top: 25px;
+}
+.shop__btn {
+  margin-left: 460px;
 }
 /* shop styles ends */
