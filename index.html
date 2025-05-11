@@ -17,7 +17,7 @@
       <div class="container">
         <div class="header__wrapper">
           <div class="header__top">
-            <img src="./images/Logo.svg" alt="header Logo" />
+            <a href="#"> <img src="./images/Logo.svg" alt="header Logo" /></a>
             <nav class="navbar">
               <ul>
                 <li>Каталог</li>
@@ -433,5 +433,121 @@
       </div>
     </section>
     <!-- content section ends -->
+    <!-- subscribe section starts -->
+    <section class="subscribe">
+      <div class="container">
+        <div class="subscribe__wrapper">
+          <div class="subscribe__left">
+            <h2 class="shop__title">Мы всегда вам рады!</h2>
+            <p class="subscribe__description">
+              Безусловно, новая модель организационной деятельности в
+              значительной степени обусловливает важность распределения
+              внутренних резервов и ресурсов.
+            </p>
+            <form class="subscribe__form">
+              <input
+                class="subscribe__input"
+                type="text"
+                id="name"
+                placeholder="Как вас зовут?"
+                required
+              />
+              <input
+                class="subscribe__input"
+                type="tel"
+                id="phone number"
+                placeholder="Ваш телефон"
+                pattern="^\+998\d{9}$"
+                required
+              />
+              <input
+                class="subscribe__input"
+                type="email"
+                id="email"
+                value="email"
+                placeholder="Ваш e-mail"
+                required
+              />
+              <button type="submit" class="subscribe__btn">Отправить</button>
+
+              <p class="subscribe__p">
+                <input class="subscribe__checkbox" type="checkbox" />
+                Принимаю
+                <a class="subscribe__link" href="#"
+                  >пользовательское соглашение</a
+                >
+              </p>
+            </form>
+          </div>
+          <div class="subscribe__right">
+            <img
+              class="subscribe__img"
+              src="./images/subscribe.svg"
+              alt="subscribe"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- subscribe seciton ends -->
+    <!-- footer section starts -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__left">
+            <a href="#"> <img src="./images/Logo.svg" alt="header Logo" /></a>
+            <div class="footer__icons">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img
+                  class="footer__img"
+                  src="./images/footer-1.svg"
+                  alt="footer img-1"
+              /></a>
+              <a href="https://vk.com/" target="_blank"
+                ><img
+                  class="footer__img"
+                  src="./images/footer-2.svg"
+                  alt="footer img-2"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  class="footer__img"
+                  src="./images/footer-3.svg"
+                  alt="footer img-3"
+              /></a>
+            </div>
+          </div>
+          <div class="footer__right">
+            <div class="footer__links">
+              <h3 class="footer__link--title">О нас</h3>
+              <a class="footer__link" href="#">О компании</a><br />
+              <a class="footer__link" href="#">Блог</a>
+            </div>
+            <div class="footer__links">
+              <h3 class="footer__link--title">Услуги</h3>
+              <a class="footer__link" class="footer__link" href="#">Доставка</a>
+              <a class="footer__link" class="footer__link" href="#"
+                >Рассрочка и кредит</a
+              >
+              <a class="footer__link" class="footer__link" href="#"
+                >Сборка и установка</a
+              >
+            </div>
+            <div class="footer__links">
+              <h3 class="footer__link--title">Связь с нами</h3>
+              <a class="footer__link" href="#">Обратная связь</a>
+              <a class="footer__link" href="#">Контакты</a>
+            </div>
+            <div class="footer__links">
+              <h3 class="footer__link--title">Сотрудничество</h3>
+              <a class="footer__link" href="#">Поставщикам</a>
+              <a class="footer__link" href="#">Оптовикам</a>
+              <a class="footer__link" href="#">Карьера</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends -->
   </body>
 </html>
