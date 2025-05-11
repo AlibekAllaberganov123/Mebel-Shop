@@ -6,10 +6,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  transition: all 0.3s ease;
 }
 .container {
   max-width: 1280px;
   margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -89,7 +93,6 @@ li {
   border: none;
   color: #fff;
   font-size: 16px;
-  transition: all 0.3s ease;
 }
 .home__btn:hover {
   background-color: #fff;
@@ -184,7 +187,12 @@ li {
   background: none;
   padding: 19px 35px;
   border-radius: 10px;
+  cursor: pointer;
   font-size: 16px;
+}
+.shop__card--btn:hover {
+  background-color: #a65cf0;
+  color: #ffffff;
 }
 .shop__box {
   display: flex;
@@ -277,7 +285,6 @@ li {
   font-size: 16px;
   margin-top: 40px;
   border: none;
-  transition: all 0.3s ease;
 }
 .hero__btn:hover {
   background: none;
@@ -345,3 +352,43 @@ li {
   padding: 10px 0;
 }
 /* category styles ends */
+/* content styles starts */
+.content {
+  padding: 40px 0;
+}
+.content__top {
+  display: flex;
+  justify-content: space-between;
+}
+.content__bottom {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  gap: 28px;
+}
+.content__p {
+  color: #333333;
+  font-size: 24px;
+  width: 567px;
+  margin: 30px 40px;
+}
+.content__btn {
+  border: 2px solid #a65cf0;
+  color: #a65cf0;
+  font-size: 16px;
+  padding: 19px 35px;
+  border-radius: 10px;
+  margin: 0 40px;
+  background: none;
+  cursor: pointer;
+}
+.content__btn:hover {
+  background-color: #a65cf0;
+  color: #ffffff;
+}
+.content__card {
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  height: 676px;
+}
+/* content styles ends */
